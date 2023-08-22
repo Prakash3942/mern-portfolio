@@ -1,0 +1,47 @@
+.navbar-profile-pic img {
+  height: 150px;
+  width: 150px;
+  border-radius: 90px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 2px solid #3b8ff3;
+}
+.nav-item {
+  color: #fff;
+  margin-top: 25px;
+  /* text-align: center; */
+  margin-left: 25px;
+}
+.nav-link {
+  margin-top: 17px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.nav-link svg {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.nav-link:hover {
+  color: #f29f67;
+}
+
+.navbar-profile-pic h4 {
+  color: #f29f67;
+  font-size: 22px;
+  /* padding-top: 5px; */
+  /* padding-left: 26px; */
+  text-align: center;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.nav-link .active {
+  color: #f29f67;
+  border-left: 5px solid #f29f67;
+  padding-left: 10px;
+  text-decoration: none;
+}
