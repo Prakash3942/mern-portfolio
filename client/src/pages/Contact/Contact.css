@@ -72,6 +72,9 @@ textarea:focus {
   background-color: #000;
   color: #fff;
 }
+.social-links {
+  cursor: pointer;
+}
 
 /* MEDIA QUERIES  */
 @media (max-width: 600px) {

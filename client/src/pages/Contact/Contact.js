@@ -26,11 +26,31 @@ const Contact = () => {
               <div className="card2 d-flex card border-0 px-4 py-4">
                 <div className="row">
                   <div className="row">
-                    <h5>
+                    <h5 className="social-links">
                       Connect With
-                      <BsLinkedin color="#0077b5" size={30} className="ms-2" />
-                      <BsGithub color="black" size={30} className="ms-2" />
-                      <BsFacebook color="#4867aa" size={30} className="ms-2" />
+                      <a
+                        href="https://www.linkedin.com/in/prakash-patasani-a1954b271/"
+                        target="_blank"
+                      >
+                        <BsLinkedin
+                          color="#0077b5"
+                          size={30}
+                          className="ms-2"
+                        />
+                      </a>
+                      <a href="https://github.com/Prakash3942/" target="_blank">
+                        <BsGithub color="black" size={30} className="ms-2" />
+                      </a>
+                      <a
+                        href="https://www.facebook.com/prakash.patasani.35"
+                        target="_blank"
+                      >
+                        <BsFacebook
+                          color="#4867aa"
+                          size={30}
+                          className="ms-2"
+                        />
+                      </a>
                     </h5>
                   </div>
 
