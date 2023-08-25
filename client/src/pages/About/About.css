@@ -22,6 +22,7 @@
 .about-content p {
   text-align: justify;
   padding: 5px;
+  text-indent: 40px;
 }
 
 /* MEDIA QUERIES  */
