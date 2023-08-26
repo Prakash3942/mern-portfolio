@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
+import { toast } from "react-toastify";
 import Jello from "react-reveal/Jello";
 import { BsLinkedin, BsGithub, BsFacebook } from "react-icons/bs";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setmsg] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!name || !email || !msg) {
+      toast.error("Please Provide all Fields");
+    } else {
+      toast.success("Message Send Successfully");
+      setName("");
+      setEmail("");
+
+      setmsg("");
+    }
+  };
+
   return (
     <>
       <div className="contact" id="contact">
@@ -65,6 +84,9 @@ const Contact = () => {
                       name="name"
                       placeholder="Enter your name"
                       className="mb-3"
+                      required
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
@@ -73,6 +95,9 @@ const Contact = () => {
                       name="email"
                       placeholder="Enter your email"
                       className="mb-3"
+                      required
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
@@ -81,10 +106,13 @@ const Contact = () => {
                       name="msg"
                       placeholder="write your message"
                       className="mb-3"
+                      required
+                      value={msg}
+                      onChange={(e) => setmsg(e.target.value)}
                     />
                   </div>
                   <div className="row px-3">
-                    <button className="button" type="submit">
+                    <button className="button" onClick={handleSubmit}>
                       Send Message
                     </button>
                   </div>

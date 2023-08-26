@@ -3,7 +3,8 @@ import "./Menus.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
-import images from "../../images/prakash.jpg";
+// import images from "../../images/prakash.jpg";
+import images2 from "../../images/newimage.png";
 import {
   FcHome,
   FcAbout,
@@ -21,7 +22,7 @@ const Menus = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src={images} alt="profile-pic" />
+              <img src={images2} alt="profile-pic" />
               <h4>Prakash Patasani</h4>
             </div>
           </Zoom>

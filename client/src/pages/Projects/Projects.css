@@ -81,6 +81,9 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.5s ease;
 }
+/* .card-body a {
+  cursor: pointer;
+} */
 
 /* MEDIA QUERIES  */
 @media (max-width: 600px) {
