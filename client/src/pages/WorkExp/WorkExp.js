@@ -31,8 +31,7 @@ const WorkExp = () => {
                 Quotus Pvt.ltd
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                I am working with a Frontend Technologies such as React/Next js.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -49,10 +48,7 @@ const WorkExp = () => {
               <h4 className="vertical-timeline-element-subtitle">
                 Alysian Technologies
               </h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
+              <p>I have done 3 month of Internship in Alysian Technologies.</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

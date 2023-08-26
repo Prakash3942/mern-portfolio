@@ -85,17 +85,17 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Full stack</span>
+                  <span className="card-notify-badge">Frontend</span>
                   <img
                     src="https://www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg"
                     alt="project1"
                   />
                 </div>
                 <div className="card-image-overly mt-3 m-auto">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">React</span>
-                  <span className="card-detail-badge">Mongodb</span>
+                  <span className="card-detail-badge">Html</span>
+                  <span className="card-detail-badge">CSS</span>
+                  <span className="card-detail-badge">Bootstrap</span>
+                  <span className="card-detail-badge">JavaScript</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
