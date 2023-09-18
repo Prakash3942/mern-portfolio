@@ -113,7 +113,7 @@ const Contact = () => {
                   </div>
                   <div className="row px-3">
                     <button className="button" onClick={handleSubmit}>
-                      Send Message
+                      Send Message 😦
                     </button>
                   </div>
                 </div>

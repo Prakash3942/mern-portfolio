@@ -9,14 +9,43 @@ const Projects = () => {
         <h2 className="col-12 mt-3 mb-1 text-center">Top Recent Projects</h2>
         <hr />
         <p className="p-2 text-center">
-          👉 Here are my top 3 recent projects with live as and source code
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-          accusantium suscipit hic quia fugiat. Incidunt aperiam totam nobis
-          voluptas! Sapiente quisquam voluptatem nulla accusamus dolorum
-          obcaecati sint vero incidunt nemo?
+          👉I have created three top projects and deployed them to a free
+          hosting platform. Now, I would like to push all the code for these
+          projects to GitHub.
         </p>
         {/* card design  */}
         <div className="row" id="ads">
+          <Spin>
+            <div className="col-md-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">Frontend</span>
+                  <img
+                    src="https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg"
+                    alt="project1"
+                  />
+                </div>
+                <div className="card-image-overly mt-3 m-auto">
+                  <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">Redux</span>
+                  <span className="card-detail-badge">Tailwind</span>
+                  <span className="card-detail-badge">Firebase</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase ">E-Bharat 🏝</h5>
+                  </div>
+                  <a
+                    href="https://ecommerce-app-3b4ce.web.app/"
+                    className="ad-btn"
+                    target="_blank"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Spin>
           <Spin>
             <div className="col-md-4">
               <div className="card rounded">
@@ -35,7 +64,7 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase ">Blog App Website</h5>
+                    <h5 className="text-uppercase ">Blog App Website 🌟</h5>
                   </div>
                   <a
                     href="https://blogapp-3xr1.onrender.com"
@@ -67,7 +96,7 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase ">Shooping Cart</h5>
+                    <h5 className="text-uppercase ">Shooping Cart 🏙</h5>
                   </div>
                   <a
                     href="https://react-shoppings-cart.netlify.app/"
@@ -81,37 +110,6 @@ const Projects = () => {
             </div>
           </Spin>
 
-          <Spin>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">Frontend</span>
-                  <img
-                    src="https://www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly mt-3 m-auto">
-                  <span className="card-detail-badge">Html</span>
-                  <span className="card-detail-badge">CSS</span>
-                  <span className="card-detail-badge">Bootstrap</span>
-                  <span className="card-detail-badge">JavaScript</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase ">Todo App</h5>
-                  </div>
-                  <a
-                    href="https://tubular-cannoli-f045ac.netlify.app"
-                    className="ad-btn"
-                    target="_blank"
-                  >
-                    View
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Spin>
           <Spin>
             {/* <div className="col-md-4 mt-5 ">
               <div className="card rounded">

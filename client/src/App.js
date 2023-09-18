@@ -31,7 +31,9 @@ function App() {
         </div>
         <div className="footer pb-3 ms-5">
           <Tada>
-            <h4 className="text-center">Made With 😊 Prakash &copy; 2023</h4>
+            <h4 className="text-center">
+              Made With 😊 Prakash Patasani &copy;2023
+            </h4>
           </Tada>
         </div>
       </div>

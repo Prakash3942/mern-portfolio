@@ -3,7 +3,7 @@ import { useTheme } from "../../context/ThemeContext";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/Prakash-Patasani.pdf";
+import Resume from "../../assets/docs/PrakashPatasaniResume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
 const Home = () => {
